@@ -42,14 +42,11 @@ def next_generation(g):
                     new_g[r][c] = 1
     return new_g
 
-
 def print_grid(g):
     for row in g:
         print("".join(['█' if cell else ' ' for cell in row]))
     print("\n")
 
-
-# Run for 50 generations
 for _ in range(50):
     print_grid(grid)
     grid = next_generation(grid)

@@ -1,3 +1,5 @@
+# This project is a Python-based simulation of Conway’s Game of Life, a classical model used to study how complex patterns can emerge from very simple rules. The program creates a grid of cells where each cell is either alive or dead. With every “generation,” the computer updates each cell based on how many neighbors it has. Over time, shapes move, grow, disappear, or stabilize, creating a dynamic simulation that resembles behaviors seen in biology, urban systems, and other real-world environments. The main goal of this project is to understand how to translate a conceptual idea into a step-by-step computational process. The “one concrete thing” the computer must do is count the number of living neighbors around each cell and decide whether that cell should live, die, or be born. Everything else in the program—printing the grid, looping through generations, or delaying the animation—supports that one central action.
+
 import time
 import copy
 
